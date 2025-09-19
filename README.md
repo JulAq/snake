@@ -1,1 +1,3 @@
 #Original de Snake.py
+
+Este programa es una versión del juego clásico Snake desarrollada con la librería turtle y basada en el código de Freegames. Se realizaron dos modificaciones principales. La primera fue agregar la función moveFood(), que permite que la comida se mueva paso a paso en una dirección aleatoria utilizando vectores, validando que no se salga de los límites de la ventana. La segunda modificación fue en el manejo de colores de la serpiente: originalmente cambiaba de color completo solo al reiniciar el programa, pero ahora se implementó para que cambie de color en cada movimiento dentro de la función move() y también cada vez que se agrega un nuevo segmento al cuerpo, de modo que cada parte puede tener un color distinto.
