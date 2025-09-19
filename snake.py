@@ -36,7 +36,7 @@ def moveFood():
         step = vector(10, 0)
     elif direction == 1:
         step = vector(-10, 0)
-    elif direction == 2;
+    elif direction == 2:
         step = vector(0, 10)
     else:
         step = vector(0, -10)
