@@ -21,7 +21,7 @@ def snake_color ():
     """Change snake color."""
     case = randrange(5)
     if case == 0:
-        return 'green'
+        return 'magenta'
     elif case == 1:
         return 'deep pink'
     elif case == 2:
@@ -29,7 +29,7 @@ def snake_color ():
     elif case == 3:
         return 'yellow'
     elif case == 4:
-        return 'black'
+        return 'dark orange'
 
 def change(x, y):
     """Change snake direction."""
