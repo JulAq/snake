@@ -28,9 +28,9 @@ def inside(head):
     """Return True if head inside boundaries."""
     return -200 < head.x < 190 and -200 < head.y < 190
 
-def moveFood():
+def move_food():
     """Move food on a random direction step by step. Inside the boundaries."""
-    direction = randrage(4)
+    direction = randrange(4)
 
     if direction == 0:
         step = vector(10, 0)
