@@ -68,7 +68,7 @@ def move():
     else:
         snake.pop(0)
     
-    moveFood() #We add the function here to move the food step by step
+    move_food() #We add the function here to move the food step by step
 
     clear()
 
