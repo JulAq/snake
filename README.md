@@ -1,3 +1,10 @@
-#Original de Snake.py
+# Original de snake.py
 
-Este programa es una versión del juego clásico Snake desarrollada con la librería turtle y basada en el código de Freegames. Se realizaron dos modificaciones principales. La primera fue agregar la función moveFood(), que permite que la comida se mueva paso a paso en una dirección aleatoria utilizando vectores, validando que no se salga de los límites de la ventana. La segunda modificación fue en el manejo de colores de la serpiente: originalmente cambiaba de color completo solo al reiniciar el programa, pero ahora se implementó para que cambie de color en cada movimiento dentro de la función move() y también cada vez que se agrega un nuevo segmento al cuerpo, de modo que cada parte puede tener un color distinto.
+## Descripción  
+Este proyecto es una adaptación del clásico juego Snake del paquete Freegames.  
+Utiliza la librería `turtle` de Python para crear una serpiente que se desplaza por la pantalla en busca de comida, la cual va aumentando su tamaño a medida que se consume. El objetivo principal del juego es evitar que la serpiente choque contra sí misma o contra los límites del tablero.  
+
+## Modificaciones  
+En una primera versión modificada se agregó la función `moveFood()`, que permite que la comida se mueva paso a paso en una dirección aleatoria utilizando vectores, validando además que no se salga de los límites de la ventana.  
+
+Posteriormente, se amplió el programa en el manejo de los colores de la serpiente: originalmente cambiaba de color completo solo al reiniciar el programa, pero además se implementó que cambie de color en cada movimiento dentro de la función `move()` y también cada vez que se agrega un nuevo segmento al cuerpo. De este modo, cada parte de la serpiente puede tener un color distinto, haciendo el juego más dinámico y difícil por el cambio continuo de los colores.
